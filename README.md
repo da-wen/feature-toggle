@@ -1,4 +1,5 @@
 # Feature Toggle
+[![Build Status](https://travis-ci.org/da-wen/feature-toggle.svg?branch=master)](https://travis-ci.org/da-wen/feature-toggle)
 
 This component is design to create a service that allowes you, to check if a feature is enabled or not.
 Currently there is only a config handler, for holding features, but this component is designed to be flexible.
