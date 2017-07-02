@@ -1,0 +1,39 @@
+{
+  "name": "da-wen/feature-toggle",
+  "type": "library",
+  "description": "Component for feature toggling",
+  "keywords": ["feature-toggle", "feature", "toggle", "component", "php"],
+  "homepage": "http://www.github.com/da-wen/feature-toggle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Daniel Wendlandt",
+      "email": "dan.wendlandt@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/da-wen/php-toggle/issues",
+    "wiki": "https://github.com/da-wen/php-toggle/wiki",
+    "source": "https://github.com/da-wen/php-toggle/tree/master"
+  },
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7",
+    "doctrine/annotations": "~1.4"
+  },
+  "autoload": {
+    "psr-4": { "Dawen\\FeatureToggle\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dawen\\FeatureToggle\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "minimum-stability": "stable",
+  "suggest": {}
+}
